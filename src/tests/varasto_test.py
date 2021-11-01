@@ -11,7 +11,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
     def test_varaston_str_toimii_tyhjalla_varastolla(self):
-        elf.assertEqual(str(self.varasto), 'saldo = 0, vielä tilaa 10')
+        self.assertEqual(str(self.varasto), 'saldo = 0, vielä tilaa 10')
 
     def test_konstruktori_toimii_negatiisivella_tilavuudella(self):
         self.warehouse = Varasto(-2)
