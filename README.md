@@ -4,4 +4,4 @@
 
 
 
-![example workflow](https://github.com/juhkarhu/ohtu-2021-viikko1/workflows/CI/badge.svg)
+![workflow badge](https://github.com/juhkarhu/ohtu-2021-viikko1/workflows/CI/badge.svg)
