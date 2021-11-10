@@ -27,4 +27,5 @@ jobs:
       - name: Coverage report to Codecov
         run: bash <(curl -s https://codecov.io/bash)
       - name: Run pylint
-        uses: run poetry run pylint src
+        uses: poetry run pylint@2.11.1 src/
+
